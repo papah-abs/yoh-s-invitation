@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papah Abs' Date Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Papah Abs' Date Planner!</h1>
+        <p>Answer the questions below to plan our perfect date:</p>
+
+        <form id="dateForm">
+            <!-- Question 1 -->
+            <label for="time">What time are you free?</label><br>
+            <input type="text" id="time" name="time" placeholder="e.g., 6:00 PM"><br><br>
+
+            <!-- Question 2 -->
+            <label>Where would you like to go?</label><br>
+            <input type="radio" name="place" value="beach"> Beach<br>
+            <input type="radio" name="place" value="mountain"> Mountain<br>
+            <input type="radio" name="place" value="city-park"> City Park<br><br>
+
+            <!-- Question 3 -->
+            <label>What would you like to eat?</label><br>
+            <input type="checkbox" name="food" value="Sushi"> Sushi<br>
+            <input type="checkbox" name="food" value="Pizza"> Pizza<br>
+            <input type="checkbox" name="food" value="Salad"> Salad<br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
